@@ -15,6 +15,9 @@
 		3D1035A428DCB16200F89208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1035A228DCB16200F89208 /* LaunchScreen.storyboard */; };
 		3D1035AF28DCB16200F89208 /* alumnosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035AE28DCB16200F89208 /* alumnosTests.swift */; };
 		3D1035BA28DCB16200F89208 /* alumnosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035B928DCB16200F89208 /* alumnosUITests.swift */; };
+		3D1035C928DCB21C00F89208 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035C828DCB21C00F89208 /* Alumno.swift */; };
+		3D1035CC28DCB49200F89208 /* AlumnosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035CB28DCB49200F89208 /* AlumnosController.swift */; };
+		3D1035CE28DCB60200F89208 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035CD28DCB60200F89208 /* CeldaAlumnoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3D1035B528DCB16200F89208 /* alumnosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alumnosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1035B928DCB16200F89208 /* alumnosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alumnosUITests.swift; sourceTree = "<group>"; };
 		3D1035BB28DCB16200F89208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1035C828DCB21C00F89208 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		3D1035CB28DCB49200F89208 /* AlumnosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnosController.swift; sourceTree = "<group>"; };
+		3D1035CD28DCB60200F89208 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		3D10359628DCB15C00F89208 /* alumnos */ = {
 			isa = PBXGroup;
 			children = (
+				3D1035CA28DCB47D00F89208 /* Controladores */,
+				3D1035C728DCB1FF00F89208 /* Modelos */,
 				3D10359728DCB15C00F89208 /* AppDelegate.swift */,
 				3D10359928DCB15C00F89208 /* SceneDelegate.swift */,
 				3D10359B28DCB15C00F89208 /* ViewController.swift */,
@@ -126,6 +134,23 @@
 				3D1035BB28DCB16200F89208 /* Info.plist */,
 			);
 			path = alumnosUITests;
+			sourceTree = "<group>";
+		};
+		3D1035C728DCB1FF00F89208 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				3D1035C828DCB21C00F89208 /* Alumno.swift */,
+			);
+			name = Modelos;
+			sourceTree = "<group>";
+		};
+		3D1035CA28DCB47D00F89208 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				3D1035CB28DCB49200F89208 /* AlumnosController.swift */,
+				3D1035CD28DCB60200F89208 /* CeldaAlumnoController.swift */,
+			);
+			name = Controladores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +287,9 @@
 				3D10359C28DCB15C00F89208 /* ViewController.swift in Sources */,
 				3D10359828DCB15C00F89208 /* AppDelegate.swift in Sources */,
 				3D10359A28DCB15C00F89208 /* SceneDelegate.swift in Sources */,
+				3D1035CC28DCB49200F89208 /* AlumnosController.swift in Sources */,
+				3D1035C928DCB21C00F89208 /* Alumno.swift in Sources */,
+				3D1035CE28DCB60200F89208 /* CeldaAlumnoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
