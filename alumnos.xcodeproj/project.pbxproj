@@ -18,6 +18,9 @@
 		3D1035C928DCB21C00F89208 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035C828DCB21C00F89208 /* Alumno.swift */; };
 		3D1035CC28DCB49200F89208 /* AlumnosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035CB28DCB49200F89208 /* AlumnosController.swift */; };
 		3D1035CE28DCB60200F89208 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1035CD28DCB60200F89208 /* CeldaAlumnoController.swift */; };
+		3D27C6C428E341CF00238445 /* DetallesAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27C6C328E341CF00238445 /* DetallesAlumnoController.swift */; };
+		3D27C6C628E34EAF00238445 /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27C6C528E34EAF00238445 /* Materia.swift */; };
+		3D27C6C828E34F7F00238445 /* CeldaMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27C6C728E34F7F00238445 /* CeldaMateriaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		3D1035C828DCB21C00F89208 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		3D1035CB28DCB49200F89208 /* AlumnosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnosController.swift; sourceTree = "<group>"; };
 		3D1035CD28DCB60200F89208 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
+		3D27C6C328E341CF00238445 /* DetallesAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesAlumnoController.swift; sourceTree = "<group>"; };
+		3D27C6C528E34EAF00238445 /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+		3D27C6C728E34F7F00238445 /* CeldaMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateriaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				3D1035C828DCB21C00F89208 /* Alumno.swift */,
+				3D27C6C528E34EAF00238445 /* Materia.swift */,
 			);
 			name = Modelos;
 			sourceTree = "<group>";
@@ -149,6 +156,8 @@
 			children = (
 				3D1035CB28DCB49200F89208 /* AlumnosController.swift */,
 				3D1035CD28DCB60200F89208 /* CeldaAlumnoController.swift */,
+				3D27C6C328E341CF00238445 /* DetallesAlumnoController.swift */,
+				3D27C6C728E34F7F00238445 /* CeldaMateriaController.swift */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -285,9 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D10359C28DCB15C00F89208 /* ViewController.swift in Sources */,
+				3D27C6C428E341CF00238445 /* DetallesAlumnoController.swift in Sources */,
 				3D10359828DCB15C00F89208 /* AppDelegate.swift in Sources */,
+				3D27C6C628E34EAF00238445 /* Materia.swift in Sources */,
 				3D10359A28DCB15C00F89208 /* SceneDelegate.swift in Sources */,
 				3D1035CC28DCB49200F89208 /* AlumnosController.swift in Sources */,
+				3D27C6C828E34F7F00238445 /* CeldaMateriaController.swift in Sources */,
 				3D1035C928DCB21C00F89208 /* Alumno.swift in Sources */,
 				3D1035CE28DCB60200F89208 /* CeldaAlumnoController.swift in Sources */,
 			);
